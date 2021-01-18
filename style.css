@@ -1,0 +1,76 @@
+html {
+    background-color: #e5ffe5;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: 15px;
+}
+
+/* Main menuBar stuff */
+.menuBar {
+    background-color: #265c23;
+    width: 100%;
+    overflow: hidden;
+}
+/* menuBar buttons (page links) */
+.menuBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+/* When you hover over a menuBar button */
+.menuBar a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+/* Highlight current page */
+.menuBar a.currentPage {
+    background-color: #4caf50;
+    color: white;
+}
+
+.pageTitle {
+    overflow: hidden;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+    text-align: center;
+    background-color: #bde4ba;
+}
+
+
+.centeredImg {
+    display: block;
+    margin: auto;
+}
+
+.item {
+    overflow: auto;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #e0e0e0;
+    background-color: #ffffffaa;
+}
+.item h3 {
+    text-decoration: underline;
+}
+
+.column {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    padding: 10px;
+}
+
+#githubLogo {
+    float: right;
+    padding: 5px;
+    height: 37px;
+    background-color: #ffffffaa;
+}
