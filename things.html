@@ -1,71 +1,138 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>tseligman - Things</title>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="icon" href="assets/favicon.png"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <!-- Header -->
-        <header>
-            <h2 class="pageTitle">Things</h2>
-            <div class="menuBar">
-                <a href="index.html">Home</a>
-                <a class="currentPage" href="things.html">Things</a>
-                <a href="mutthead.html">MuttHead</a>
-                <!-- GitHub -->
-                <a href="https://git.io/Jt6e3" target="_blank" id="githubLogo" title="GitHub">
-                    <img style="vertical-align: center;" src="assets/github.png"/>
-                </a>
-            </div>
-        </header>
-        <!-------------->
+	<head>
+		<title>tseligman - Things</title>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="icon" href="assets/icon.png"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<h2 class="pageTitle">Things</h2>
+			<div class="menuBar">
+				<a href="index.html">Home</a>
+				<a class="currentPage" href="things.html">Things</a>
+				<a href="mutthead.html">MuttHead</a>
+				<!-- GitHub -->
+				<a href="https://git.io/Jt6e3" target="_blank" id="githubLogo" title="GitHub">
+					<img style="vertical-align: center;" src="assets/github.png"/>
+				</a>
+			</div>
+		</header>
+		<!-------------->
 
-        <!-- TOC -->
-        <style>#toc a {text-decoration: none;}</style>
-        <div id="toc" class="item">
-            <p>Table of contents:</p>
-            <ul>
-                <li><a href="#gibberish">Translatable Gibberish</a></li>
-                <li><a href="#lemontree">Lemon Tree</a></li>
-            </ul>
-        </div>
+		<!-- TOC -->
+		<style>#toc a {text-decoration: none;}</style>
+		<div id="toc" class="item">
+			<p>Table of contents:</p>
+			<ul>
+				<li><a href="#gibberish">Translatable Gibberish</a></li>
+				<li><a href="#lemontree">Lemon Tree</a></li>
+				<li><a href="#tibasic-bf">TI-BASIC Brainf**k</a></li>
+			</ul>
+		</div>
 
-        <!-- Translatable Gibberish -->
-        <div class="item" id="gibberish">
-            <h3>Translatable Gibberish</h3>
-            <i>March 2019</i>
-            <p>
-                <b>About</b><br>
-                For any word with L number of characters and V number of vowels, it can have up to <code>(L-V-2)!</code>* different spellings!<br><br>
-                Some examples:<br>
-            </p>
-            <li>Garbage has 2 possible spellings in TG</li>
-            <li>Scrambled has 120</li>
-            <li>Philanthropist has 40,320 possible spellings in TG!</li><br>
-            <p>
-                This is what makes TG gibberish and not just a code. Each word doesn't have just one spelling, but many "synonyms"!
-                <br>
-                If you want to make TG easier, don't scramble the word after you've removed the vowels.<br><br>
-                
-                <b>Rules/Example</b><br>
-                Take a word, "reading" for example. Remove all vowels: "Rdng". Now rearrange all of the letters except for the first and last ones: "Rndg".<br>
-                That is,
-            </p>
-            <ol>
-                <li>Pick a word</li>
-                <li>Remove vowels</li>
-                <li>Scramble word but don't scramble the first and last letters.
-                (Ex: Gbbrsh -> Bbgsrh <span style="color:red">wrong</span>, Gbbrsh -> Gsbrbh <span style="color:green">correct</span>)</li>
-            </ol>
-            <br><p style="font-size:10px;"><i>* At least I think this is correct...</i></p>
-        </div>
+		<!-- Translatable Gibberish -->
+		<div class="item" id="gibberish">
+			<h3>Translatable Gibberish</h3>
+			<p>
+				<b>About</b><br>
+				For any word with L number of characters and V number of vowels, it can have up to <code>(L-V-2)!</code>* different spellings!<br><br>
+				Some examples:<br>
+			</p>
+			<li>Garbage has 2 possible spellings in TG</li>
+			<li>Scrambled has 120</li>
+			<li>Philanthropist has 40,320 possible spellings in TG!</li><br>
+			<p>
+				This is what makes TG gibberish and not just a code. Each word doesn't have just one spelling, but many "synonyms"!
+				<br>
+				If you want to make TG easier, don't scramble the word after you've removed the vowels.<br><br>
+				
+				<b>Rules/Example</b><br>
+				Take a word, "reading" for example. Remove all vowels: "Rdng". Now rearrange all of the letters except for the first and last ones: "Rndg".<br>
+				That is,
+			</p>
+			<ol>
+				<li>Pick a word</li>
+				<li>Remove vowels</li>
+				<li>Scramble word but don't scramble the first and last letters.
+				(Ex: Gbbrsh -> Bbgsrh <span style="color:red">wrong</span>, Gbbrsh -> Gsbrbh <span style="color:green">correct</span>)</li>
+			</ol>
+			<br><p style="font-size:10px;"><i>* At least I think this is correct...</i></p>
+		</div>
 
-        <!-- Lemon tree -->
-        <div class="item" id="lemontree">
-            <h3>Lemon Tree - Fools Garden</h3>
-            <a target="_blank" href="https://www.musescore.com/user/12923121/scores/6185028">My transcription/arrangement of <i>Lemon Tree</i></a>
-        </div>
-    </body>
+		<!-- Lemon tree -->
+		<div class="item" id="lemontree">
+			<h3>Lemon Tree - Fools Garden</h3>
+			<a target="_blank" href="https://www.musescore.com/user/12923121/scores/6185028">My transcription/arrangement of <i>Lemon Tree</i></a>
+		</div>
+
+		<!-- TIBASIC Brainf**k -->
+		<div class="item" id="tibasic-bf">
+			<h3>TI-BASIC Brainf**k Interpreter</h3>
+			<p>
+				Here's an interpreter for <a target = "_blank" href="https://en.wikipedia.org/wiki/Brainfuck">Brainf**k</a>, written in TI-BASIC, the programming language of the TI-84 graphing calculator:
+			</p>
+			<blockquote><pre><code>
+"   L₁ = tape
+"   L₂ = stack
+"    P = pointer/position
+"    N = value of current cell
+"    I = index of current cell
+" Str1 = BF code
+" Str2 = current character
+" Str3 = user input
+" Str4 = output
+
+ClrHome
+201→dim(L₁)
+Fill(0,L₁)
+0→dim(L₂)
+101→P
+":"→Str4
+Input Str1
+
+For(I,1,length(Str1))
+  sub(Str1,I,1)→Str2
+  L₁(P)→N
+
+  If Str2="+"
+    N+1→L₁(P)
+
+  If Str2="-"
+    N-1→L₁(P)
+
+  If Str2="<" and P>1
+    P-1→P
+
+  If Str2=">" and P<201
+    P+1→P
+
+  If Str2="." and N≤39 and N>0
+    Str4+sub("ABCDEFGHIJKLMNOPQRSTUVWXYZ ,.0123456789",N,1)→Str4
+
+  If Str2=",":Then
+    Input Str3
+    inString("ABCDEFGHIJKLMNOPQRSTUVWXYZ ,.0123456789",Str3)→L₁(P)
+  End
+
+  If Str2="["
+    I→L₂(1+dim(L₂))
+
+  If Str2="]":Then
+    If N=0
+      Then:dim(L₂)-1→dim(L₂)
+      Else:L₂(dim(L₂))→I
+    End
+  End
+End
+
+0→dim(L₁)
+0→dim(L₂)
+Str4
+			</code></pre></blockquote>
+			<a href="downloads/BRAINF.8xp" download>Download</a>
+		</div>
+	</body>
 </html>
